@@ -1,0 +1,114 @@
+html {
+    font-family: Roboto;
+
+}
+
+/* Todo el header------------------ */
+.header-fixed {
+    background-color: #333;
+    padding: 20px 40px;
+    height: 80px;
+
+    box-sizing: border-box;
+    /* top: -100px; */
+    
+    /* Para que esté fijo */
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+/* Esto por si no lo quiere del todo en las esquinas */
+
+/* .header-fixed .header-limiter {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    /* display: inline-block; */
+    padding: 10px;
+    opacity: 0.9;
+}
+
+nav a:hover {
+    opacity: 1;
+    font-size: 17px;
+}
+
+.pagina_ppal {
+    opacity: 0.6;
+}
+
+.img_cesta {
+    float: right;
+    border-radius: 10%;
+}
+
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder {
+    height: 80px;
+    display: none;
+}
+/* Aqui acaba la barra----------------------------------- */
+
+/* cuerpo */
+main {
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+.enviogratis {
+    /* width: 867px; */
+    width: 57%;
+}
+
+@media only screen and (max-width: 1300px), (max-resolution: 0.0108 dpi) {
+    /* comun */
+    .img_cesta {
+        width: 7%;
+    }
+
+    main {
+        font-size: 16px;
+    }
+    
+    footer {
+        font-size: 14px;
+    }
+
+    /* especifico */
+    
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(102, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    /* margin-top: 90px; */
+
+    
+}
+
+footer span {
+    margin: 10px;
+}
+
+.linkspana {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 10px;
+}

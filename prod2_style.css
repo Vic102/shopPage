@@ -1,0 +1,157 @@
+html {
+    font-family: Roboto;
+
+}
+
+/* Todo el header------------------ */
+.header-fixed {
+    background-color: #333;
+    padding: 20px 40px;
+    height: 80px;
+
+    box-sizing: border-box;
+    /* top: -100px; */
+    
+    /* Para que esté fijo */
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+/* Esto por si no lo quiere del todo en las esquinas */
+
+/* .header-fixed .header-limiter {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    /* display: inline-block; */
+    padding: 10px;
+    opacity: 0.9;
+}
+
+nav a:hover {
+    opacity: 1;
+    font-size: 17px;
+}
+
+.pagina_ppal {
+    opacity: 0.6;
+}
+
+.img_cesta {
+    float: right;
+    border-radius: 10%;
+}
+
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder {
+    height: 80px;
+    display: none;
+}
+/* Aqui acaba la barra----------------------------------- */
+
+/* Cuerpo */
+main { 
+    display: flex;
+    font-size: 20px;
+    padding-top: 80px;
+}
+
+div .item-imgs {
+    display: grid;
+    width: 1000px;
+}
+
+.tshirtdescr {
+    margin-left: 70px; 
+    position: fixed;
+    left: 1011px;
+}
+
+#size {
+    border-width: 2px;
+    border-color: rgb(102, 0, 0);
+    font-size: 16px;
+}
+
+.img1 {
+    width: 1000px;
+}
+
+.img2 {
+    width: 495px;
+    margin-right: 10px;
+}
+
+.img3 {
+    width: 495px;
+    margin-bottom: 108px;
+}
+
+@media only screen and (max-width: 1300px), (max-resolution: 0.0108 dpi) {
+    /* .products_list img {
+        width: 290px;
+    } */
+
+    .img_cesta {
+        width: 7%;
+    }
+
+    .img1 {
+        width: 725px;
+    }
+
+    .img2 {
+        width: 359px;
+        margin-right: 7px;
+    }
+
+    .img3 {
+        width: 359px;
+        margin-bottom: 78px;
+    }
+
+    .tshirtdescr {
+        margin-left: 50px; 
+        position: fixed;
+        left: 733px;
+    }
+
+
+    main {
+        font-size: 16px;
+    }
+    
+    footer {
+        font-size: 14px;
+    }
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: rgb(102, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    /* margin-top: 90px; */
+}
+
+footer span {
+    margin: 10px;
+}
+
+.linkspana {
+    text-decoration: none;
+    color: #fff;
+}
